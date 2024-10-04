@@ -4,8 +4,8 @@ Task tracker is a project used to track and manage your tasks. In this task, you
 
 Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
-
 ## Features:
+
 - **Add a new task**: Add tasks to your list.
 - **List all tasks**: View all tasks with their details.
 - **List tasks by status**: View tasks with selected status.
@@ -13,35 +13,45 @@ Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker)
 - **Delete a task**: Remove a task from the list.
 - **Update a task**: Edit the description of an existing task.
 
-
 ## The list of commands and their usage:
 
 ![image](https://github.com/user-attachments/assets/3f967a64-0402-4f11-a3a8-0d6f974ce598)
 
+## Pre-Installation
 
+- PHP (versión [^8.0](https://www.php.net/downloads.php))
+- Composer (https://getcomposer.org/download/)
 
 ## Installation
-
 
 1. Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/yadindev/taks-traker-cli-php.git
    ```
-2. Run `setup.sh` script
-    - On UNIX machine probably u need to first add permission to execute
 
-     ```bash
-     chmod -x setup.sh
-     ```
+2. Run composer install:
 
-    And then run script
-    ```bash
+   ```shell
+   composer install
+   ```
+
+3. Run `setup.sh` script
+
+   - On UNIX machine probably u need to first add permission to execute
+
+   ```bash
+   chmod -x setup.sh
+   ```
+
+   And then run script
+
+   ```bash
    ./setup.sh
    ```
-3. Now u can easily add your first task via CLI 🚀
-     - Example
-         ```bash
-        task-cli add "Go gym for 2 hr"
-         ```
-  
+
+4. Now u can easily add your first task via CLI 🚀
+   - Example
+     ```bash
+     task-cli add "Go gym for 2 hr"
+     ```
