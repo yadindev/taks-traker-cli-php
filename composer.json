@@ -1,0 +1,11 @@
+{
+    "name": "yadinds/task-traker-cli",
+    "autoload": {
+        "psr-4": {
+            "Yadinds\\TaskTrakerCli\\": "src/"
+        }
+    },
+    "require": {
+        "nunomaduro/termwind": "^2.1"
+    }
+}
